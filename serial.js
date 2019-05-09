@@ -3,7 +3,10 @@
 //take a look at https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-input-to-the-p5-js-ide/
 
 //also, download the p5 serial controller app:
-//https://github.com/vanevery/p5.serialcontrol/releases 
+//https://github.com/vanevery/p5.serialcontrol/releases
+
+//You will also need the actual serial library
+//https://github.com/ehagan21/creativecoding_democode/blob/master/p5.serialport.js 
 
 var serial; // variable to hold an instance of the serialport library
 var portName = '/dev/cu.usbmodem1422'; // fill in your serial port name here
